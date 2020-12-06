@@ -1,0 +1,40 @@
+.fc {
+  display: flex;
+  flex-direction: column;
+}
+.fr {
+  display: flex;
+  flex-direction: row;
+}
+.fjc {
+  justify-content: center;
+}
+.fac {
+  align-items: center;
+}
+.fw {
+  flex-wrap: wrap;
+}
+#wallpapers {
+}
+#wallpapers img {
+  width: 46%;
+  margin: 2%;
+  min-width: 300px;
+}
+#album-names div {
+  margin: 0px 10px;
+  cursor: pointer;
+  transition: color 0.3s;
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  font-size: 18px;
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  color: #2c3e50;
+}
+#album-names div.selected {
+  color: red;
+}
